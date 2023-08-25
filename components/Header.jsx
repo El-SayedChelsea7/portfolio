@@ -83,7 +83,7 @@ const Header = ({ theme, setTheme }) => {
           </ul>
         </div>
         <div className="gap-3 items-center flex">
-          <ThemeToggle theme={theme} setTheme={setTheme} />
+          {/* <ThemeToggle theme={theme} setTheme={setTheme} /> */}
           <Btn href="/#contact" text="Contact" />
           <AiOutlineMenu
             onClick={() => SetShowToggle(!ShowToggle)}

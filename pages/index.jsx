@@ -13,7 +13,7 @@ const cairo = Cairo({ subsets: ["latin"] });
 export default function Home({ theme, setTheme }) {
   return (
     <>
-      <NextSeo title="El-Sayed Chelsea | Back End Dev & Flutter Dev" />
+      <NextSeo title="El-Sayed Chelsea | MERN Stack Developer" />
       <main className="font-mono">
         <Loader path={"El-Sayed Chelsea"} />
         <Header theme={theme} setTheme={setTheme} />

@@ -4,14 +4,8 @@ import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }) {
-  const [theme, setTheme] = useState();
-  useEffect(() => {
-    if (localStorage.getItem("theme") == "dark") {
-      document.querySelector("html").classList.add("dark");
-    } else {
-      document.querySelector("html").classList.remove("dark");
-    }
-  }, [theme]);
+  const [theme, setTheme] = useState("dark");
+
   return (
     <>
       <Component {...pageProps} theme={theme} setTheme={setTheme} />
