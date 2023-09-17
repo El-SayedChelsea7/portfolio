@@ -5,18 +5,9 @@ import axios from "axios";
 import { SkillsCard } from "./ui/Card";
 import Icons from "./Icons";
 import { IoLogoJavascript } from "react-icons/io";
-import {
-  SiJquery,
-  SiTailwindcss,
-  SiTypescript,
-  SiExpress,
-  SiMongodb,
-} from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 import { BsBootstrapFill, BsGithub } from "react-icons/bs";
-import { GrReactjs } from "react-icons/gr";
-import { TbBrandNextjs } from "react-icons/tb";
-import { DiSass } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
+import { SiMicrosoftsqlserver, SiDotnet } from "react-icons/si";
 const Skills = ({ skills }) => {
   useEffect(() => {
     Aos.init();
@@ -30,16 +21,10 @@ const Skills = ({ skills }) => {
           <SkillsCard title="HTML" Icon={Icons.html} />
           <SkillsCard title="CSS" Icon={Icons.css} />
           <SkillsCard title="Javascript" Icon={IoLogoJavascript} />
-          <SkillsCard title="JQuery" Icon={SiJquery} />
           <SkillsCard title="Bootstrap" Icon={BsBootstrapFill} />
-          <SkillsCard title="Tailwindcss" Icon={SiTailwindcss} />
-          <SkillsCard title="Reactjs" Icon={GrReactjs} />
-          <SkillsCard title="Nextjs" Icon={TbBrandNextjs} />
-          <SkillsCard title="SASS" Icon={DiSass} />
-          <SkillsCard title="TypeScript" Icon={SiTypescript} />
-          <SkillsCard title="Nodejs" Icon={FaNodeJs} />
-          <SkillsCard title="ExpressJs" Icon={SiExpress} />
-          <SkillsCard title="MongoDB" Icon={SiMongodb} />
+          <SkillsCard title="CSharp" Icon={TbBrandCSharp} />
+          <SkillsCard title="SQL Server" Icon={SiMicrosoftsqlserver} />
+          <SkillsCard title="ASP.NET Core" Icon={SiDotnet} />
           <SkillsCard title="PHP" Icon={Icons.php} />
           <SkillsCard title="Git & Github" Icon={BsGithub} />
         </div>

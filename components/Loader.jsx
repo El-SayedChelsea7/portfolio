@@ -10,9 +10,9 @@ const Loader = (props) => {
   setTimeout(() => {
     setHidden(true);
     setCookie("intro", true, {
-      maxAge: 21600, // 6h
+      maxAge: 27000, // 6h
     });
-  }, 11000);
+  }, 33000);
 
   if (cookie.intro) {
     return "";
@@ -39,7 +39,13 @@ const Loader = (props) => {
                 <TypeWriter
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString(`/${path || "Chelsea"}/~`)
+                      .typeString(`/El-Sayed Chelsea/~`)
+                      .deleteChars(19)
+                      .typeString(`/I'm A BackEnd .NET Developer/~`)
+                      .deleteChars(32)
+                      .typeString(
+                        `/El-Sayed Chelsea || I'm A BackEnd .NET Developer/~`
+                      )
                       .start()
                       .changeDelay(60);
                   }}
@@ -48,8 +54,8 @@ const Loader = (props) => {
               <TypeWriter
                 onInit={(typewriter) => {
                   typewriter
-                    .pauseFor(1200)
-                    .typeString("npm run dev")
+                    .pauseFor(22000)
+                    .typeString(" npm run dev")
                     .start()
                     .changeDelay(50);
                 }}
@@ -57,23 +63,23 @@ const Loader = (props) => {
             </div>
           </div>
           <div className="mt-3 flex items-center">
-            <div className="bg-primary-700 flex h-8 w-fit gap-1 items-center px-2 text-white">
-              <span className="text-green-400">
+            <div className="bg-primary-700 h-8 w-fit gap-1 items-center px-2 text-white">
+              <div className="text-green-400">
                 <TypeWriter
                   onInit={(typewriter) => {
                     typewriter
-                      .pauseFor(3100)
-                      .typeString("ready ")
+                      .pauseFor(24000)
+                      .typeString("Hello World!")
                       .start()
                       .changeDelay(50);
                   }}
                 />
-              </span>
+              </div>
               <TypeWriter
                 onInit={(typewriter) => {
                   typewriter
-                    .pauseFor(3300)
-                    .typeString(" - started server on https://localhost")
+                    .pauseFor(27000)
+                    .typeString("Welcome To My WebSite.")
                     .start()
                     .changeDelay(100);
                 }}

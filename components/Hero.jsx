@@ -10,14 +10,14 @@ const Hero = () => {
   }, []);
   return (
     <div className="hero snap-start" id="home">
-      <div className="container relative min-h-screen flex items-center justify-center flex-wrap sm:flex-nowrap">
+      <div className="container relative min-h-screen flex gap-4 items-center justify-center flex-wrap sm:flex-nowrap">
         <div>
           <h1 className="text-6xl mb-5 mt-[100px]" data-aos="fade-right">
             <span className="text-main">Hi</span>, My Name Is El-Sayed Chelsea
           </h1>
           <p className="text-2xl" data-aos="fade-right">
-            I'm MERN Stack Developer from Egypt in Mansoura,
-            with two year experience
+            I'm A BackEnd .NET Developer from Egypt in Mansoura, with one year
+            experience
           </p>
           <div className="link flex mt-5 gap-5">
             <BtnPrimary
@@ -30,10 +30,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div
-          className="rounded-full overflow-hidden animate-hero"
-          data-aos="fade-right"
-        >
+        <div className="overflow-hidden animate-hero" data-aos="fade-right">
           <Image src={HeroImg} alt="Hero Img" />
         </div>
       </div>

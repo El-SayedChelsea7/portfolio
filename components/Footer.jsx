@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import Logo from "public/favicon.png";
 import { IoLogoWhatsapp } from "react-icons/io";
 const Footer = () => {
   const date = new Date();

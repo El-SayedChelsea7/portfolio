@@ -6,7 +6,7 @@ const cairo = Cairo({ subsets: ["latin"] });
 export default function E500() {
   return (
     <>
-      <NextSeo title="500 - El-Sayed Chelsea | Back End Dev & Flutter Dev" />
+      <NextSeo title="500 - El-Sayed Chelsea | .NET Developer" />
       <main
         className={
           cairo.className + " h-screen flex justify-center items-center"

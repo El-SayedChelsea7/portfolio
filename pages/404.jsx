@@ -10,7 +10,7 @@ export default function E404() {
 
   return (
     <>
-      <NextSeo title="404 - El-Sayed Chelsea | Back End Dev & Flutter Dev" />
+      <NextSeo title="404 - El-Sayed Chelsea | .NET Developer" />
       <main
         className={
           cairo.className + " h-screen flex justify-center items-center"

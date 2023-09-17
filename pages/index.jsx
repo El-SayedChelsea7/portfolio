@@ -13,9 +13,9 @@ const cairo = Cairo({ subsets: ["latin"] });
 export default function Home({ theme, setTheme }) {
   return (
     <>
-      <NextSeo title="El-Sayed Chelsea | MERN Stack Developer" />
+      <NextSeo title="El-Sayed Chelsea | .NET Developer" />
       <main className="font-mono">
-        <Loader path={"El-Sayed Chelsea"} />
+        <Loader path={"El-Sayed Chelsea I'm A BackEnd .NET Developer"} />
         <Header theme={theme} setTheme={setTheme} />
         <Hero />
         <Skills />

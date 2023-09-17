@@ -1,10 +1,7 @@
-import Image from "next/image";
-import Logo from "public/favicon.png";
 import Link from "next/link";
 import { AiOutlineDown, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { BtnPrimary as Btn } from "./ui/Btns";
-import ThemeToggle from "./ThemeToggle";
 
 const Header = ({ theme, setTheme }) => {
   const [showMenu, setShowMenu] = useState({});
